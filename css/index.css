@@ -1,0 +1,94 @@
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+
+  text-shadow: 0 0 1px black;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  text-align: start;
+  background-color: #1F2937;
+  margin: 0;
+
+  padding: 50px 0 0 320px;
+}
+
+.title {
+  color: white;
+  font-size: 70px;
+  margin-bottom: -20px;
+  
+
+  .title-highlight {
+    color: #55F991;
+  }
+}
+
+.subtitle {
+  color: #D5D4D8;
+  font-size: 40px;
+  font-weight: 400;
+
+}
+
+#generate-btn {
+  border-radius: 6px;
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: 500;
+
+  color: white;
+  background-color: #10B981;
+
+  
+}
+
+#generate-btn:hover {
+    background-color: #318868;
+}
+
+.password-board {
+  border-top: 2px solid #2F3E53;
+  margin-top: 50px;
+
+  width: 900px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .password {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+    width: 380px;
+    height: 60px;
+    margin-top: 60px;
+    padding: 10px 20px;
+
+    background-color: #273549;
+    color: #55F991;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 30px;
+  }
+}
