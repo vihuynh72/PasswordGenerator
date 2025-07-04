@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <title>Password Generator</title>
 </head>
-<body>
-    <h1 class="title">Generator a
+<body class="inter">
+    <h1 class="title karla">Generator a
         <br>
         <span class="title-highlight">
             random password
@@ -16,16 +20,12 @@
         Never use an insecure password again.
     </h3>
 
-    <button id="generate-btn">Generate passwords</button>
+    <button class="karla" id="generate-btn">Generate passwords</button>
 
     <div class="password-board">
-        <div class="password-container" id="password-container-1">
-            
-        </div>
+        <p class="password" id="password-1"></p>
 
-        <div class="password-container" id="password-container-2">
-
-        </div>
+        <p class="password" id="password-2"></p>
 
     </div>
     
